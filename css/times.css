@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=K2D');
+        
+
+*,
+*::after,
+*::before{
+    padding: 0.3em;
+    margin: 0.2em;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    /*font-family: font stack required for body text */
+    color: hsl(0, 100%, 10% );
+}
+h1, h2, h3, h4{
+    font-family: 'K2D', "Times New Roman", serif;
+     color: hsl(05,60%, 40% );
+    font-size: 2em;
+}
+body {
+    font-family: 'K2D', "Times New Roman", sans-serif;
+    color: hsl(70,80%, 05% ); 
+    font-size: 1em;
+}
+a {
+    font-family: 'K2D', "Times New Roman", sans-serif;
+}
+p{
+    
+}
+.container{
+    width: 100%;
+    max-width: 1500px;
+    min-width: 500px;
+    
+}
+.subnav{
+    display: flex;
+    justify-content: flex-end;
+    
+}
+.subnav a{
+    
+ 
+}
+.mainnav{
+    display: flex;
+    justify-content: space-between;
+    
+    
+    
+}
+.mainnav a{
+    
+}
+.masthead{
+    
+}
+.times-logo{
+
+    
+}
+.masthead h1{
+    
+}
+.content{
+    
+}
+.content .story{
+    
+}
+.story.lead-story{
+    font-weight: 600;
+    
+}
+h1.story-title{
+
+    
+    
+}
+.story img{
+    height: auto;
+    width: auto;
+    
+    
+}
+.story p{
+    
+}
+.story blockquote{
+    quotes: "\201E" "\201D";
+}
+.story blockquote::before{
+    content: open-quote;
+}
+.story blockquote::after{
+    content: close-quote;
+}
+.story p.byline{
+    
+}
+p.byline span.author{
+    
+}
+p.byline span.pub{
+    
+}
+.foot{
+    
+}
+.foot p{
+    font-size: 0.6em;
+}
